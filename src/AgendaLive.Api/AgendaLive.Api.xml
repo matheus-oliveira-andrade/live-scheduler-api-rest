@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AgendaLive.Api</name>
+    </assembly>
+    <members>
+        <member name="M:AgendaLive.Api.Controllers.LivesController.GetAllLives">
+            <summary>
+            List all lives
+            </summary>        
+        </member>
+        <member name="M:AgendaLive.Api.Controllers.LivesController.GetLivesById(System.String)">
+            <summary>
+            List by id live
+            </summary>        
+        </member>
+        <member name="M:AgendaLive.Api.Controllers.LivesController.CreateLive(AgendaLive.Api.Models.LiveDocument)">
+            <summary>
+            Create new live
+            </summary>
+        </member>
+        <member name="M:AgendaLive.Api.Controllers.LivesController.UpdateLive(System.String,AgendaLive.Api.Models.LiveDocument)">
+            <summary>
+            Edit live
+            </summary>        
+        </member>
+        <member name="M:AgendaLive.Api.Controllers.LivesController.DeleteLive(System.String)">
+            <summary>
+            Delete live by id 
+            </summary>        
+        </member>
+    </members>
+</doc>
